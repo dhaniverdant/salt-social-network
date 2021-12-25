@@ -1,0 +1,8 @@
+.inlineList {
+  float: left;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  width: 100%;
+}

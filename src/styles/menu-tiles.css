@@ -1,0 +1,82 @@
+.outer-wrapper {
+  width: 65%;
+  margin-top: 40px;
+  float: left;
+  background-color: rgb(87, 119, 189);
+}
+
+.tiles-wrapper {
+  /* margin-top: 25px; */
+  width: 65%;
+  float: left;
+  background-color: yellowgreen;
+}
+
+.box-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-box {
+  height: 310px;
+  background-color: aliceblue;
+  margin-top: 10px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+}
+
+.title-and-subtitle-wrapper {
+  /* position: absolute; */
+  /* bottom: 10px; */
+  margin-top: auto;
+}
+
+.box-subtitle-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-box-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-box {
+  float: left;
+  width: 49%;
+  height: 150px;
+  background-color: beige;
+  margin-top: 10px;
+}
+
+.side-box-wrapper {
+  /* margin-top: 25px; */
+  margin-left: 10px;
+  width: 33.6%;
+  float: left;
+  background-color: rgb(99, 131, 35);
+}
+
+.side-box {
+  height: 150px;
+  background-color: rgb(206, 206, 161);
+  margin-top: 10px;
+}
+
+.right-item-wrapper {
+  width: 33%;
+  margin-left: 20px;
+  margin-top: 40px;
+  float: left;
+  background-color: rgb(189, 87, 143);
+}
+
+.right-box {
+  height: 470px;
+  background-color: rgb(129, 129, 25);
+  margin-top: 10px;
+}

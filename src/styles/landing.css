@@ -1,0 +1,36 @@
+.app-wrapper {
+  /* height: 100vh; */
+  background: rgba(139, 13, 13, 0.863);
+  overflow-y: scroll;
+  padding: 50px 0;
+}
+
+.header-wrapper {
+  position: relative;
+  margin: auto;
+  width: 65%;
+}
+
+.content-wrapper {
+  position: relative;
+  margin: auto;
+  width: 65%;
+  /* background-color: aquamarine; */
+  /* height: 100vh; */
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .app-wrapper {
+    padding: 10px 0;
+  }
+
+  .content-wrapper {
+    width: 90%;
+    margin-top: 0;
+  }
+
+  .header-wrapper {
+    width: 90%;
+  }
+}

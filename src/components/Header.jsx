@@ -14,9 +14,25 @@ const Header = () => {
 
   return (
     <div>
-      <h2  style={{color: "rgb(253, 253, 198)"}}>SocialNetwork</h2>
+      <div className="title-wrapper">
+        <div className="title">
+          <h1 style={{color: "rgb(253, 253, 198)"}}>Social</h1>
+          <p style={{color: "rgb(253, 253, 198)", fontSize: "32px"}}>Network</p>
+        </div>
+        <div>
+          <input type="text" name="name" className="input" placeholder="Find..." />
+        </div>
+        <div className="upload-box">Upload</div>
+        <div className="profile-wrapper">
+          <div className="profile-box" />
+          <div className="username-wrapper">
+            <div>Name</div>
+            <div>UserName</div>
+          </div>
+        </div>
+      </div>
       <hr style={{borderTop: "1px solid rgb(253, 253, 198)"}} />
-      <div className="inlineList">{renderData}</div>
+      <div className="header-inline">{renderData}</div>
       <hr style={{borderTop: "1px solid rgb(253, 253, 198)"}} />
     </div>
   );

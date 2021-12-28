@@ -1,7 +1,11 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import '../styles/menu-tiles.css';
 
 const MenuTiles = (props) => {
+  const isBigScreen = useMediaQuery({ query: '(min-width: 1024px)' });
+  const chooseSideBoxClassName = isBigScreen ? "side-box-wrapper" : "tiles-wrapper";
+
   return (
     <div>
       <div className="outer-wrapper">
@@ -34,15 +38,15 @@ const MenuTiles = (props) => {
             </div>
           </div>
         </div>
-        <div className="side-box-wrapper">
+        <div className={chooseSideBoxClassName}>
           <div className="side-box">
-            <div className="bottom-box-text-wrapper">
+            <div className="right-box-text-wrapper">
               <p>Side Box left</p>
               <p>Side Box right</p>
             </div>
           </div>
           <div className="side-box">
-            <div className="bottom-box-text-wrapper">
+            <div className="right-box-text-wrapper">
               <p>Side Box left</p>
               <p>Side Box right</p>
             </div>
@@ -53,12 +57,7 @@ const MenuTiles = (props) => {
           </div>
         </div>
       </div>
-      <div className="right-item-wrapper">
-        <h2>Right Item</h2>
-        <div className="right-box">
-          <h4>Right Side Box title</h4>
-        </div>
-      </div>
+      {props.rightSideItem}
     </div>
   );
 }

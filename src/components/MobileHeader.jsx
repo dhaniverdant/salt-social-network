@@ -20,7 +20,7 @@ const MobileHeader = () => {
     );
   });
   return (
-    <>
+    <div style={{marginBottom: "20px"}}>
       <div onClick={() => setIsOpen(!isOpen)} style={{float: "right"}}>
         <img
           src="/hamburger_icon_white.png"
@@ -35,12 +35,27 @@ const MobileHeader = () => {
         selectedKey={'entry'}
         onClose={() => setIsOpen(false)}
       >
+        <div className="profile-wrapper">
+        <div className="upload-box">Upload</div>
+          <div className="profile-box" />
+          <div className="username-wrapper">
+            <div>Name</div>
+            <div>UserName</div>
+          </div>
+        </div>
         <Item
           itemKey={'menu'}
           text={renderMenuName}
         />
       </Burger>
-    </>
+      <div className="title">
+        <h2 style={{color: "rgb(253, 253, 198)"}}>Social</h2>
+        <p style={{color: "rgb(253, 253, 198)", fontSize: "24px"}}>Network</p>
+      </div>
+      <div>
+        <input type="text" name="name" className="input" placeholder="Find..." />
+      </div>
+    </div>
   );
 }
 

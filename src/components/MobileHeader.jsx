@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import header from '../assets/json/header.json';
 import { slide as Burger, Item } from "burger-menu";
 import 'burger-menu/lib/index.css';
-import menu from '../assets/icon/hamburger_icon_white.png';
 
 const MobileHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +23,7 @@ const MobileHeader = () => {
     <>
       <div onClick={() => setIsOpen(!isOpen)} style={{float: "right"}}>
         <img
-          src={menu}
+          src="/hamburger_icon_white.png"
           alt="menu"
           width={"25px"}
           height={"25px"}

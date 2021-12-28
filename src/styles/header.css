@@ -1,4 +1,4 @@
-.inlineList {
+.header-inline {
   float: left;
   margin-right: 10px;
   display: flex;
@@ -6,4 +6,74 @@
   padding: 10px 0;
   width: 100%;
   color: rgb(253, 253, 198);
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.input {
+  background-color: rgb(253, 253, 198);
+  height: 35px;
+  width: 360px;
+  border: none;
+}
+
+.upload-box {
+  width: 100px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(139, 13, 13, 0.863);
+  background-color: rgb(253, 253, 198);
+}
+
+.profile-wrapper {
+  display: flex;
+}
+
+.profile-box {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  justify-content: center;
+  color: rgba(139, 13, 13, 0.863);
+  background-color: rgb(253, 253, 198);
+}
+
+.username-wrapper {
+  color: rgb(253, 253, 198);
+}
+
+@media screen and (max-width: 1024px) {
+  .input {
+    width: 290px;
+  }
+
+  .username-wrapper {
+    color: rgba(139, 13, 13, 0.863);
+  }
+
+  .upload-box {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: white;
+    background-color: rgba(139, 13, 13, 0.863);
+  }
+
+  .profile-box {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: white;
+    background-color: rgba(139, 13, 13, 0.863);
+  }
 }

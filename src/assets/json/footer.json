@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "menu": "Videos"
+  },
+  {
+    "id": 2,
+    "menu": "People"
+  },
+  {
+    "id": 3,
+    "menu": "Documents"
+  },
+  {
+    "id": 4,
+    "menu": "Events"
+  },
+  {
+    "id": 5,
+    "menu": "Communities"
+  },
+  {
+    "id": 6,
+    "menu": "Favorites"
+  }
+]

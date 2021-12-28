@@ -2,7 +2,7 @@
   {
     "id": 1,
     "main_title": "Video",
-    "show_all": "Browse all videos",
+    "show_all": "Browse all",
     "in_box_title": "How to improve your skills",
     "in_box_subtitle": "Waseem Arshad",
     "in_box_right_subtitle": "Abcde fghij"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "main_title": "Documents",
-    "show_all": "Browse all documents",
+    "show_all": "Browse all",
     "in_box_title": "Mobile UI & UX guide 2013",
     "in_box_subtitle": "By William Makheir",
     "in_box_right_subtitle": "Uvwxyz"
